@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_dolar_activity_ultima"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EA97BC"
+    tools:context=".UltimaActivity">
+
+    <TextView
+        android:id="@+id/textView_conversor_monedas_activity_ultima"
+        android:layout_width="229dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="416dp"
+        android:text="Conversor Monedas"
+        android:textColor="#6200EA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView_ingrese_monto_activity_ultima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ingrese Monto en Pesos"
+        app:layout_constraintEnd_toEndOf="@+id/textView_conversor_monedas_activity_ultima"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/textView_conversor_monedas_activity_ultima"
+        app:layout_constraintTop_toBottomOf="@+id/textView_conversor_monedas_activity_ultima" />
+
+    <TextView
+        android:id="@+id/textView_ACTIVITY_ULTIMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Seleccione una Moneda"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#6200EA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="@+id/textView_ingrese_monto_activity_ultima"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/textView_ingrese_monto_activity_ultima"
+        app:layout_constraintTop_toTopOf="@+id/textView_ingrese_monto_activity_ultima" />
+
+    <RadioButton
+        android:id="@+id/radioButton_dolar_activity_ultima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="132dp"
+        android:text="DOLAR(USA)"
+        app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="136dp"
+        android:text="RadioButton"
+        app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="136dp"
+        android:text="RadioButton"
+        app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
+</androidx.constraintlayout.widget.ConstraintLayout>
