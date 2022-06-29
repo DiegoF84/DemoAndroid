@@ -67,29 +67,60 @@
         android:id="@+id/radioButton_dolar_activity_ultima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="132dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="140dp"
         android:text="DOLAR(USA)"
         app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
         app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
 
     <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="136dp"
-        android:text="RadioButton"
+        android:id="@+id/radioButtonEuro_Activity_Ultima"
+        android:layout_width="74dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="176dp"
+        android:text="EURO"
         app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
         app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
 
     <RadioButton
-        android:id="@+id/radioButton3"
+        android:id="@+id/radioButtonReal_Activity_Ultima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="136dp"
-        android:text="RadioButton"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="128dp"
+        android:text="REAL(BRASIL)"
         app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
         app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
+
+    <TextView
+        android:id="@+id/textViewResultado_Ultima_Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="84dp"
+        android:text="Resultado"
+        app:layout_constraintEnd_toEndOf="@+id/textView_ACTIVITY_ULTIMA"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ACTIVITY_ULTIMA" />
+
+    <Button
+        android:id="@+id/buttonConvertir_Ultima_Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:text="CONVERTIR"
+        app:layout_constraintEnd_toEndOf="@+id/textViewResultado_Ultima_Activity"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResultado_Ultima_Activity" />
+
+    <Button
+        android:id="@+id/buttonReiniciar_Ultima_Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="40dp"
+        android:text="REINICIAR"
+        app:layout_constraintStart_toStartOf="@+id/textViewResultado_Ultima_Activity"
+        app:layout_constraintTop_toTopOf="@+id/textViewResultado_Ultima_Activity" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
